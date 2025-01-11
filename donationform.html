@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(177, 54, 54);">
+
+    <div class="donation-form">
+        <form>
+            <div class="name-email">
+          <label for="name" style="margin-left: 35px;margin-top: 55px; ">Name:</label>
+          <input type="name" value="" id="name" placeholder="enter your name" required>
+
+          <label for="email" style="margin-left: 35px ; margin-top: 55px; ">email:</label>
+          <input type="email" value="" id="name" placeholder="enter your email " required>
+          </div>
+          <br/>
+          <br/>
+          <br/>
+
+          <div class="name-email">
+            <label for="date of birth" style="margin-left: 30px;margin-top: 55px; ">birth year:</label>
+            <input type="number" value="" id="date of birth" placeholder="enter your date of birth" required>
+  
+            <label for="blood group" style="margin-left: 30px ; margin-top: 55px; ">blood group:</label>
+            <input type="blood group" value="" id="blood group" placeholder="enter your blood group " required>
+            </div>
+
+           <div class="submit-button">
+            <button id="DONORS" class="submit" onclick="checkBloodGroup()">Submit</button>
+            
+           </div>
+           <div id="message"></div>
+
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
